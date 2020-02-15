@@ -1,7 +1,7 @@
 var headUrl = "https://cdn.jsdelivr.net/gh/rgraciama/ScratchWeb/eft-tools/";
 var version = "01";
 
-var listLibs = [headUrl + "exams/func_exams_v"+version+".js",
+var listLibs = [headUrl + "market/func_market_v"+version+".js",
                 "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"];
 
 listLibs.reverse();

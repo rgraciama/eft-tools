@@ -82,7 +82,7 @@
       <workItem from="1581364188598" duration="866000" />
       <workItem from="1581535875721" duration="1254000" />
       <workItem from="1581704785919" duration="23445000" />
-      <workItem from="1581797633183" duration="3951000" />
+      <workItem from="1581797633183" duration="4567000" />
     </task>
     <task id="LOCAL-00001" summary="Home&#10;Hideout first view">
       <created>1581762636907</created>
@@ -105,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581809488739</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="script to get data from market">
+      <created>1581809627933</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581809627933</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
