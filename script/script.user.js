@@ -6,8 +6,8 @@
 // @author       You
 // @match        localhost:3000/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
-// @require      https://raw.githubusercontent.com/rgraciama/eft-tools/master/eft-tools/script/importLibs.js
-// @require      https://raw.githubusercontent.com/rgraciama/eft-tools/master/eft-tools/script/exams/market.js
-// @require      https://raw.githubusercontent.com/rgraciama/eft-tools/master/eft-tools/script/_main.js
+// @require      https://raw.githubusercontent.com/rgraciama/eft-tools/master/script/importLibs.js
+// @require      https://raw.githubusercontent.com/rgraciama/eft-tools/master/script/market/market.js
+// @require      https://raw.githubusercontent.com/rgraciama/eft-tools/master/script/_main.js
 // @grant        none
 // ==/UserScript==
