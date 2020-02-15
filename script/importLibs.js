@@ -21,4 +21,4 @@ function doImportLibs(listLibs) {
 doImportLibs(listLibs);
 //purge jsdelivr
 //https://purge.jsdelivr.net/gh/rgraciama@latest
-//https://purge.jsdelivr.net/gh/rgraciama/ScratchWeb/platzi-exams/exams/exam.js@latest
+//https://purge.jsdelivr.net/gh/rgraciama/eft-tools/market/market.js@latest

@@ -4,8 +4,6 @@
     <list default="true" id="cb102b10-7b7b-41ef-98c8-7f3501f4bc67" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/importLibs.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/importLibs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/_main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/script.user.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.user.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,7 @@
       <workItem from="1581364188598" duration="866000" />
       <workItem from="1581535875721" duration="1254000" />
       <workItem from="1581704785919" duration="23445000" />
-      <workItem from="1581797633183" duration="3807000" />
+      <workItem from="1581797633183" duration="3951000" />
     </task>
     <task id="LOCAL-00001" summary="Home&#10;Hideout first view">
       <created>1581762636907</created>
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581798502199</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="script to get data from market">
+      <created>1581809488739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581809488739</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
