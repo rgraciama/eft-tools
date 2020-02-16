@@ -6,23 +6,23 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
+Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
+Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
+The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -66,3 +66,36 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+# Deploy in Firebase
+## Install Firebase CLI
+`npm install -g firebase-tools`
+
+## Login to Firebase
+`firebase login`
+
+## Connect the Firebase project to the code
+`firebase init`
+
+1. Which Firebase CLI features do you want to set up for this folder? Press Space
+ to select features, then Enter to confirm your choices.
+ - Hosting: Configure and deploy Firebase Hosting sites
+2.  What do you want to use as your public directory?
+ - Write 'build' and press Enter
+3. Configure as a single-page app (rewrite all urls to /index.html)?
+ - Write 'N' and press Enter
+4. File build/index.html already exists. Overwrite?
+ - Write 'N' and press Enter
+
+ Done!
+
+ ## Deploy to Firebase
+ 1. First of all, execute `npm run build`
+ 2. Execute `firebase deploy`
+
+ Done!
+ 
+  
+
+

@@ -5,6 +5,7 @@ import './styles/Hideout.css';
 import PageLoading from '../components/PageLoading';
 import PageError from '../components/PageError';
 import MiniLoader from '../components/MiniLoader';
+import {db} from '../firebase';
 
 class Hideout extends React.Component {
     state = {
@@ -13,14 +14,22 @@ class Hideout extends React.Component {
         data: undefined,
     };
 
-    componentDidMount() {
-        this.fetchData();
+    getData() {
+        db.collection("DEV_RC_ENDURANCE")
+            .onSnapshot(querySnapshot => {
+                const data = querySnapshot.docs.map(doc => doc.data());
+                this.setState( {leftData: this.getLeftCars(data, this.state.tab)});
+                this.setState({data: this.getTableWithCars(this.state.tables, data, this.state.tab), loading: false, error: null});
+            });
+    }
 
-        this.intervalId = setInterval(this.fetchData, 5000);
+    componentDidMount() {
+        this.getData();
+
     }
 
     componentWillUnmount() {
-        clearInterval(this.intervalId);
+        // clearInterval(this.intervalId);
     }
 
     fetchData = async () => {
