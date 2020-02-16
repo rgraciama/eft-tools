@@ -1,4 +1,4 @@
-var headUrl = "https://cdn.jsdelivr.net/gh/rgraciama/ScratchWeb/eft-tools/";
+var headUrl = "https://cdn.jsdelivr.net/gh/rgraciama/eft-tools/script/";
 var version = "01";
 
 var listLibs = [headUrl + "market/func_market_v"+version+".js",
