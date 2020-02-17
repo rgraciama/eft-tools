@@ -10,4 +10,4 @@ const container = document.getElementById('app');
 
 ReactDOM.render(<App />, container);
 
-serviceWorker.register();r
+serviceWorker.register();

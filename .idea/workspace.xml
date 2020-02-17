@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb102b10-7b7b-41ef-98c8-7f3501f4bc67" name="Changes" comment="Git ignore update">
-      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/_main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/getPriceFromMarket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/importLibs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/market/func_market_v01.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/market/market.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/script.user.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,7 +98,7 @@
       <workItem from="1581704785919" duration="23445000" />
       <workItem from="1581797633183" duration="4567000" />
       <workItem from="1581878598332" duration="3168000" />
-      <workItem from="1581961414593" duration="2634000" />
+      <workItem from="1581961414593" duration="2664000" />
     </task>
     <task id="LOCAL-00001" summary="Home&#10;Hideout first view">
       <created>1581762636907</created>
@@ -159,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581873339241</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Git ignore update">
+      <created>1581965593187</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581965593188</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
