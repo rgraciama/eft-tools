@@ -4,12 +4,16 @@
   "private": true,
   "dependencies": {
     "bootstrap": "4.3.1",
-    "build": "^0.1.4",
-    "firebase": "^6.5.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "firebase": "latest",
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
+    "clsx": "^1.0.4",
+    "material-ui-icons": "^1.0.0-beta.36",
+    "react": "latest",
+    "react-dom": "latest",
     "react-router-dom": "4.3.1",
-    "react-scripts": "3.3.1"
+    "react-scripts": "latest",
+    "recharts": "^1.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,5 +35,18 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgraciama/eft-tools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgraciama/eft-tools/issues"
+  },
+  "homepage": "https://github.com/rgraciama/eft-tools#readme"
 }

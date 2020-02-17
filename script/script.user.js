@@ -1,13 +1,26 @@
 // ==UserScript==
-// @name         Hideout prices
+// @name         New Userscript
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.6
 // @description  try to take over the world!
 // @author       You
-// @match        localhost:3000/*
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
-// @require      https://raw.githubusercontent.com/rgraciama/eft-tools/master/script/importLibs.js
-// @require      https://raw.githubusercontent.com/rgraciama/eft-tools/master/script/market/market.js
-// @require      https://raw.githubusercontent.com/rgraciama/eft-tools/master/script/_main.js
-// @grant        none
+// @match        localhost:3000/*
+// @grant        GM_xmlhttpRequest
 // ==/UserScript==
+
+(function() {
+    'use strict';
+    var item = "fp-100_filter_absorber";
+    var price = $('.last').text();
+    GM_xmlhttpRequest({
+        url: "https://tarkov-market.com/item/"+item,
+        method: "GET",
+        onload: function(response) {
+            var title = /(?<=\<title\>).*?(?=\<\/title\>)/.exec(response.response);
+            var price = /(?<=price: ).*?(?=₽)/.exec(title);
+            console.log(price);
+        }
+    });
+    // Your code here...
+})();

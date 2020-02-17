@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb102b10-7b7b-41ef-98c8-7f3501f4bc67" name="No need" comment="">
-      <change afterPath="$PROJECT_DIR$/script/getPriceFromMarket.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script/_main.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/_main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Hideout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Hideout.js" afterDir="false" />
+    <list default="true" id="cb102b10-7b7b-41ef-98c8-7f3501f4bc67" name="Changes" comment="Git ignore update">
+      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/_main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/getPriceFromMarket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/importLibs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/market/func_market_v01.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/market/market.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/script.user.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,7 +42,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fss-web" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -29,19 +51,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_repos\eft-tools\src" />
+      <recent name="D:\git_repos\eft-tools\script" />
+      <recent name="D:\git_repos\eft-tools\src\components\styles" />
+      <recent name="D:\git_repos\eft-tools\src\images" />
+      <recent name="D:\git_repos\eft-tools\src\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git_repos\eft-tools\src\images" />
       <recent name="D:\git_repos\eft-tools\script\market" />
       <recent name="D:\git_repos\eft-tools\src\components" />
       <recent name="D:\git_repos\eft-tools\src\components\styles" />
       <recent name="D:\git_repos\eft-tools\src\pages\styles" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git_repos\eft-tools\script" />
-      <recent name="D:\git_repos\eft-tools\src\components\styles" />
-      <recent name="D:\git_repos\eft-tools\src" />
-      <recent name="D:\git_repos\eft-tools\src\images" />
-      <recent name="D:\git_repos\eft-tools\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,6 +107,8 @@
       <workItem from="1581535875721" duration="1254000" />
       <workItem from="1581704785919" duration="23445000" />
       <workItem from="1581797633183" duration="4567000" />
+      <workItem from="1581878598332" duration="3168000" />
+      <workItem from="1581961414593" duration="2634000" />
     </task>
     <task id="LOCAL-00001" summary="Home&#10;Hideout first view">
       <created>1581762636907</created>
@@ -114,7 +138,28 @@
       <option name="project" value="LOCAL" />
       <updated>1581809627933</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Git ignore update">
+      <created>1581857148291</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581857148291</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Git ignore update">
+      <created>1581858428111</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581858428111</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Git ignore update">
+      <created>1581873339241</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581873339241</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +181,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Home&#10;Hideout first view" />
     <MESSAGE value="script to get data from market" />
-    <option name="LAST_COMMIT_MESSAGE" value="script to get data from market" />
+    <MESSAGE value="Git ignore update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git ignore update" />
   </component>
 </project>
