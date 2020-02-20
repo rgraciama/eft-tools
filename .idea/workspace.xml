@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb102b10-7b7b-41ef-98c8-7f3501f4bc67" name="Changes" comment="Git ignore update">
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/nota.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/script.user.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/script.user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Hideout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Hideout.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +38,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fss-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -42,11 +48,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git_repos\eft-tools\public" />
       <recent name="D:\git_repos\eft-tools\src" />
       <recent name="D:\git_repos\eft-tools\script" />
       <recent name="D:\git_repos\eft-tools\src\components\styles" />
       <recent name="D:\git_repos\eft-tools\src\images" />
-      <recent name="D:\git_repos\eft-tools\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git_repos\eft-tools\src\images" />
@@ -98,7 +104,10 @@
       <workItem from="1581704785919" duration="23445000" />
       <workItem from="1581797633183" duration="4567000" />
       <workItem from="1581878598332" duration="3168000" />
-      <workItem from="1581961414593" duration="2664000" />
+      <workItem from="1581961414593" duration="9505000" />
+      <workItem from="1582060360729" duration="2923000" />
+      <workItem from="1582138407566" duration="600000" />
+      <workItem from="1582222917620" duration="2380000" />
     </task>
     <task id="LOCAL-00001" summary="Home&#10;Hideout first view">
       <created>1581762636907</created>
@@ -156,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581965593188</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Git ignore update">
+      <created>1581965614513</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581965614513</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

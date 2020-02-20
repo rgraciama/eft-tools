@@ -15,11 +15,10 @@ class Hideout extends React.Component {
     };
 
     getData() {
-        db.collection("DEV_RC_ENDURANCE")
+        db.collection("HIDEOUT_CREATION")
             .onSnapshot(querySnapshot => {
                 const data = querySnapshot.docs.map(doc => doc.data());
-                this.setState( {leftData: this.getLeftCars(data, this.state.tab)});
-                this.setState({data: this.getTableWithCars(this.state.tables, data, this.state.tab), loading: false, error: null});
+                this.setState( {data: data, loading: false, error: null});
             });
     }
 
